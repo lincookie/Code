@@ -1,0 +1,6 @@
+height = input()
+weight = input()
+height = float(height)
+weight = float(weight)
+BMI = weight / ((height/100)**2)
+print("BMI =",'%.2f'%BMI)

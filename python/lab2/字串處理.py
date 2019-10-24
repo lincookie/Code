@@ -1,0 +1,6 @@
+str = input()
+now = input()
+new = input()
+print(str.upper())
+print(str.lower())
+print(str.replace(now,new))
