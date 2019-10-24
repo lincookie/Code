@@ -138,8 +138,7 @@ bool LongInt::operator<(LongInt b)
 }
 
 //=========================================
-bool LongInt::operator==(LongInt b)
-{
+bool LongInt::operator==(LongInt b) {
 	int i;
 	for(i=MAX-1; i>=0; i--)
 	{
